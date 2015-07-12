@@ -1,0 +1,34 @@
+{
+  "name": "base-svg-element",
+  "version": "1.0.0",
+  "description": "A layer on base-element for SVG elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shama/base-svg-element.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "virtual",
+    "dom",
+    "element",
+    "svg",
+    "diff",
+    "browser"
+  ],
+  "devDependencies": {
+    "standard": "^4.0.0"
+  },
+  "dependencies": {
+    "base-element": "^3.0.1",
+    "inherits": "^2.0.1",
+    "virtual-dom": "^2.0.1"
+  }
+}
